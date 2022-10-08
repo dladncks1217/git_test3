@@ -17,6 +17,7 @@ public class Sort {
 				swap(a, ++i, j);
 		swap(a, i + 1, end);
 		return i + 1;
+
 	}
 
 	static void quickSort(int[] a, int start, int end) {
@@ -26,4 +27,5 @@ public class Sort {
 		quickSort(a, start, middle - 1);
 		quickSort(a, middle + 1, end);
 	}
+
 }
